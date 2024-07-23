@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TikSaver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Save TikTok Video">
+	<meta name="keywords" content="tiksave, tikdown, savetik, download, tiktok, bookmark, tikmark, collections">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .container {
+            padding: 50px;
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+            overflow: hidden;
+            position: relative;
+            margin: 50px auto;
+        }
+        .logo {
+            width: 120px;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        p {
+            color: #333;
+            line-height: 1.6;
+            text-align: justify;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+        #app-store-button img {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+            text-align: center;
+        }
+        .section.center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="logo.png" alt="App logo">
+        <h1>TikSaver</h1>
+
+        <div class="section">
+            <p>TikSaver is the ultimate app for growing your TikTok presence. It offers easy-to-use tools to manage videos and boost engagement. Save, organize, and plan your content effortlessly with TikSaver.</p>
+        </div>
+        
+        <div class="section">
+            <p>As an application with high respect for your data, we have a comprehensive 
+                <a href="privacy_policy.html">Privacy Policy</a> 
+                to ensure your data is handled securely and ethically.
+            </p>
+        </div>
+
+        <div class="section">
+            <p>If you have any questions, need assistance, or want to share feedback, our dedicated support team is just an email away. Reach out to us at 
+                <a href="mailto:tiksaver.contact@gmail.com">Support Email</a>.
+            </p>
+        </div>
+
+        <div class="section center">
+            <a href="https://apps.apple.com/us/app/id6459173652" target="_blank" id="app-store-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Available_on_the_App_Store_%28black%29.png" alt="Available on the App Store">
+            </a>
+        </div>
+    </div>
+    </div>
+	<script type="text/javascript">
+		if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1) || (navigator.userAgent.indexOf('iPad') != -1)) {
+			document.location = "https://apps.apple.com/us/app/id6459173652";
+		}  
+	</script>
+</body>
+</html>
